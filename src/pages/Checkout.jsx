@@ -368,7 +368,7 @@ export default function Checkout() {
               Order Summary
             </h2>
 
-            <div className="mt-4 max-h-72 divide-y divide-slate-100 overflow-y-auto pr-1">
+            <div className="slim-scrollbar mt-4 max-h-72 divide-y divide-slate-100 overflow-y-auto pr-2.5">
               {cartItems.map((item) => (
                 <div
                   key={item.id}
